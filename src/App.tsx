@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Counter from './components/Counter';
-import ColorPicker from './components/ColorPicker';
-import DisplayArea from './components/DisplayArea';
+import Counter from '../components/Counter';
+import ColorPicker from '../components/ColorPicker';
+import DisplayArea from '../components/DisplayArea';
 
 const App: React.FC = () => {
   const [parentCount, setParentCount] = useState<number>(0);
